@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="PPC.ImportaFileWindow"
+        Title="Importa File" Height="250" Width="260" ResizeMode="NoResize" x:Name="ImportaFileWin" Closing="ImportaFileWin_Closing">
+    <Grid>
+        <Label Content="Importa File" Height="48" HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="MainImportaLabel" VerticalAlignment="Top" Width="182" FontFamily="Calibri" FontSize="18" />
+        <Separator Height="2" HorizontalAlignment="Left" Margin="0,47,0,0" x:Name="separator1" VerticalAlignment="Top" Width="260" />
+        <Button Content="Help" Height="26" HorizontalAlignment="Left" Margin="184,173,0,0" x:Name="HelpImportaButton" VerticalAlignment="Top" Width="42" Click="HelpImportaButton_Click" />
+        <Button Content="Scegli" Height="23" HorizontalAlignment="Left" Margin="162,101,0,0" x:Name="ScegliFileButton" VerticalAlignment="Top" Width="64" Click="ScegliFileButton_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,101,0,0" x:Name="PathFileTextBox" VerticalAlignment="Top" Width="143" />
+        <Button Content="Carica" Height="27" HorizontalAlignment="Left" Margin="14,172,0,0" x:Name="CaricaFileButton" VerticalAlignment="Top" Width="146" Click="CaricaFileButton_Click" />
+    </Grid>
+</Window>
+

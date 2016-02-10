@@ -1,0 +1,33 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="PPC.CreaAlberoWindow"
+        Title="CreaAlberoWindow" Height="448" Width="436" ResizeMode="NoResize" x:Name="CreaAlberoWin" Closing="CreaAlberoWin_Closing">
+    <Grid HorizontalAlignment="Left" Height="404" Margin="4,3,0,-2" VerticalAlignment="Top" Width="405">
+        <Label x:Name="CreaAlbMainLabel" Content="Creazione Albero" HorizontalAlignment="Left" Height="43" Margin="96,0,0,0" VerticalAlignment="Top" Width="190" FontSize="24"/>
+        <Separator HorizontalAlignment="Left" Height="12" Margin="0,43,0,0" VerticalAlignment="Top" Width="395"/>
+        <Label x:Name="NomeCreaLabel" Content="Nome" HorizontalAlignment="Left" Height="27" Margin="0,60,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label x:Name="SplitSizeCreaLabel" Content="SplitSize" HorizontalAlignment="Left" Height="27" Margin="0,91,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="DepthCreaLabel" Content="Depth" HorizontalAlignment="Left" Height="26" Margin="232,92,0,0" VerticalAlignment="Top" Width="46"/>
+        <TextBox x:Name="NomeCreaTextBox" HorizontalAlignment="Left" Height="25" Margin="56,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="SplitSizeCreaTextBox" HorizontalAlignment="Left" Height="26" Margin="56,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <TextBox x:Name="DepthCreaTextBox" HorizontalAlignment="Left" Height="26" Margin="277,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="222" Margin="0,132,0,0" Stroke="Black" VerticalAlignment="Top" Width="395"/>
+        <ListBox x:Name="AttributeListbox" HorizontalAlignment="Left" Height="220" Margin="0,134,0,0" VerticalAlignment="Top" Width="163" SelectionChanged="AttributeListbox_SelectionChanged"/>
+        <Label x:Name="AttrRuleLabel" Content="Attribute Value Generation Rule" HorizontalAlignment="Left" Height="28" Margin="178,240,0,0" VerticalAlignment="Top" Width="195"/>
+        <CheckBox x:Name="ArcoCheckBox" Content="Arco" HorizontalAlignment="Left" Height="16" Margin="286,204,0,0" VerticalAlignment="Top" Width="77"/>
+        <CheckBox x:Name="NodoCheckBox" Content="Nodo" HorizontalAlignment="Left" Height="16" Margin="191,204,0,0" VerticalAlignment="Top" Width="81"/>
+        <TextBox x:Name="DefStringTextBox" HorizontalAlignment="Left" Height="26" Margin="178,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="MinNumTextBox" HorizontalAlignment="Left" Height="26" Margin="272,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="43"/>
+        <TextBox x:Name="MaxNumTextBox" HorizontalAlignment="Left" Height="26" Margin="320,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="43"/>
+        <Label x:Name="RangeLabel" HorizontalAlignment="Left" Height="26" Margin="173,273,0,0" VerticalAlignment="Top" Width="91" Content="Inserire Range"/>
+        <Label x:Name="InserireStrLabel" Content="Inserire Stringa" HorizontalAlignment="Left" Height="26" Margin="272,273,0,0" VerticalAlignment="Top" Width="99"/>
+        <Button x:Name="ConfermaAttrButton" Content="Conferma" HorizontalAlignment="Left" Height="22" Margin="232,322,0,0" VerticalAlignment="Top" Width="83" Click="ConfermaAttrButton_Click" d:IsHidden="True"/>
+        <Label x:Name="AttributeNameLabel" Content="    Nome Attributo" HorizontalAlignment="Left" Height="35" Margin="191,151,0,0" VerticalAlignment="Top" Width="172" FontSize="18"/>
+        <Label x:Name="TipoLabel" Content="Tipo" HorizontalAlignment="Left" Height="27" Margin="232,60,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="TipoTextBox" HorizontalAlignment="Left" Height="25" Margin="277,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"/>
+        <Button x:Name="CreaAlberoButton" Content="Crea Albero" HorizontalAlignment="Left" Height="33" Margin="0,361,0,0" VerticalAlignment="Top" Width="109" Click="CreaAlberoButton_Click"/>
+        <Button x:Name="HelpButton" Content="Help" HorizontalAlignment="Left" Height="33" Margin="304,361,0,0" VerticalAlignment="Top" Width="91" Click="HelpButton_Click" />
+    </Grid>
+</Window>
+

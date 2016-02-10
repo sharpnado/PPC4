@@ -1,0 +1,242 @@
+﻿<Window x:Class="PPC.TreeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TreeView" Height="700" Width="700" Name="TreeWindow" Closing="TreeWindow_Closing" ResizeMode="NoResize">
+   
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/PPC;component/Images/psycho_tree.png" Stretch="Uniform" TileMode="None" />
+        </Grid.Background>
+        <Button Focusable="False" Margin="34,98,458,438" IsEnabled="True" IsDefault="False" Name="buttCreaAlb" Click="buttCreaAlb_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/PPC;component/Images/button_rilievo.png" Stretch="Uniform" TileMode="None" />
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/PPC;component/Images/button12.png" Stretch="Uniform" TileMode="None" />
+            </Button.OpacityMask>
+            <Button.Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="OverridesDefaultStyle" Value="True"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Name="border" 
+                        BorderThickness="0" 
+                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="border">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/PPC;component/Images/psycho_button1.png" Stretch="Uniform" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </Button.Style>
+
+        </Button>
+
+        <Button Focusable="False" Margin="302,-6,178,544" IsEnabled="True" IsDefault="False" Name="buttModAlb" Click="buttModAlb_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/PPC;component/Images/button_rilievo.png" Stretch="Uniform" TileMode="None" />
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/PPC;component/Images/button12.png" Stretch="Uniform" TileMode="None" />
+            </Button.OpacityMask>
+            <Button.Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="OverridesDefaultStyle" Value="True"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Name="border" 
+                        BorderThickness="0" 
+                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="border">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/PPC;component/Images/modifica_albero1.png" Stretch="Uniform" TileMode="None"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </Button.Style>
+        </Button>
+
+        <Button Focusable="False" Margin="470,58,96,475" IsEnabled="True" IsDefault="False" Name="buttCalcAlb" Click="buttCalcAlb_Click" >
+
+            <Button.Background>
+                <ImageBrush ImageSource="/PPC;component/Images/button_rilievo.png" Stretch="Uniform" TileMode="None"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/PPC;component/Images/button12.png" Stretch="Uniform" TileMode="None"/>
+            </Button.OpacityMask>
+            <Button.Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="OverridesDefaultStyle" Value="True"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Name="border" 
+                        BorderThickness="0" 
+                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="border">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/PPC;component/Images/calcola_albero1.png" Stretch="Uniform" TileMode="None"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </Button.Style>
+
+        </Button>
+
+        <Button Focusable="False" Margin="430,396,118,178" IsEnabled="True" IsDefault="False" Name="buttAiuto" Click="buttAiuto_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/PPC;component/Images/button_rilievo.png" Stretch="Uniform" TileMode="None"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/PPC;component/Images/button12.png" Stretch="Uniform" TileMode="None"/>
+            </Button.OpacityMask>
+            <Button.Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="OverridesDefaultStyle" Value="True"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Name="border" 
+                        BorderThickness="0" 
+                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="border">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/PPC;component/Images/aiuto1.png" Stretch="Uniform" TileMode="None"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </Button.Style>
+
+        </Button>
+
+        <Button Focusable="False" Margin="324,279,178,265" IsEnabled="True" IsDefault="False" Name="buttEspFile" Click="buttEspFile_Click" >
+            <Button.Background>
+                <ImageBrush ImageSource="/PPC;component/Images/button_rilievo.png" Stretch="Uniform" TileMode="None"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/PPC;component/Images/button12.png" Stretch="Uniform" TileMode="None"/>
+            </Button.OpacityMask>
+            <Button.Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="OverridesDefaultStyle" Value="True"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Name="border" 
+                        BorderThickness="0" 
+                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="border">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/PPC;component/Images/upload_file1.png" Stretch="Uniform" TileMode="None"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </Button.Style>
+
+        </Button>
+
+        <Button Focusable="False" Margin="93,375,451,178" IsEnabled="True" IsDefault="False" Name="buttImpFile" Click="buttImpFile_Click" Content="buttImpFile" >
+            <Button.Background>
+                <ImageBrush ImageSource="/PPC;component/Images/button_rilievo.png" Stretch="Uniform" TileMode="None"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/PPC;component/Images/button12.png" Stretch="Uniform" TileMode="None"/>
+            </Button.OpacityMask>
+            <Button.Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="OverridesDefaultStyle" Value="True"/>
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Name="border" 
+                        BorderThickness="0" 
+                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="border">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/PPC;component/Images/importa_file1.png" Stretch="Uniform" TileMode="None"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </Button.Style>
+
+        </Button>
+
+
+
+    </Grid>
+
+</Window>

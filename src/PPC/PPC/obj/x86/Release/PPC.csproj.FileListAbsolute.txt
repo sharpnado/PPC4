@@ -1,0 +1,15 @@
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\bin\Release\PPC.exe
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\bin\Release\PPC.pdb
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\MainWindow.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\TreeView.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\MainWindow.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\TreeView.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\App.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\PPC_MarkupCompile.cache
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\PPC.g.resources
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\PPC.Properties.Resources.resources
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\PPC.exe
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Release\PPC.pdb

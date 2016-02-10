@@ -1,0 +1,9 @@
+C:\Users\Luca\AppData\Local\Temporary Projects\Engine\bin\Debug\Engine.exe
+C:\Users\Luca\AppData\Local\Temporary Projects\Engine\bin\Debug\Engine.pdb
+C:\Users\Luca\AppData\Local\Temporary Projects\Engine\obj\x86\Debug\Engine.exe
+C:\Users\Luca\AppData\Local\Temporary Projects\Engine\obj\x86\Debug\Engine.pdb
+C:\Users\Luca\documents\visual studio 2010\Projects\Engine\Engine\obj\x86\Debug\Engine.exe
+C:\Users\Luca\documents\visual studio 2010\Projects\Engine\Engine\obj\x86\Debug\Engine.pdb
+C:\Users\Luca\documents\visual studio 2010\Projects\Engine\Engine\bin\Debug\Engine.exe
+C:\Users\Luca\documents\visual studio 2010\Projects\Engine\Engine\bin\Debug\Engine.pdb
+C:\Users\Luca\Documents\Visual Studio 2010\Projects\Engine\Engine\obj\x86\Debug\Engine.csprojResolveAssemblyReference.cache

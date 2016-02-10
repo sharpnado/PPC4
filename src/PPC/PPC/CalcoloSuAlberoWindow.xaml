@@ -1,0 +1,47 @@
+﻿<Window x:Class="PPC.CalcoloSuAlberoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CalcoloSuAlberoWindow" Height="473" Width="408" Closing="Window_Closing_1" ResizeMode="NoResize">
+    <Grid Margin="0,0,-8,-5">
+        <TextBlock Height="39" HorizontalAlignment="Left" x:Name="CalcAlbMainLabel" Text="Calcolo su Albero" VerticalAlignment="Top" Width="278" TextAlignment="Center" FontFamily="Calibri" FontSize="18" Margin="62,2,0,0" />
+        <Label Content="Seleziona Albero" Height="24" HorizontalAlignment="Left" Margin="12,44,0,0" x:Name="SelAlbCalLabel" VerticalAlignment="Top" Width="108" />
+        <Separator Height="42" HorizontalAlignment="Left" Margin="10,10,0,0" x:Name="separator1" VerticalAlignment="Top" Width="380" />
+        <ComboBox Height="19" HorizontalAlignment="Left" Margin="125,49,0,0" x:Name="SelAlbCalcomboBox" VerticalAlignment="Top" Width="141" SelectionChanged="SelAlbCalcomboBox_SelectionChanged"/>
+        <Button Content="Effettua Calcolo" Height="26" HorizontalAlignment="Left" Margin="10,403,0,0" x:Name="CalcoloButton" VerticalAlignment="Top" Width="154" Click="CalcoloButton_Click" />
+        <Button Content="Help" Height="26" HorizontalAlignment="Left" Margin="343,403,0,0" x:Name="HelpModButton" VerticalAlignment="Top" Width="43" Click="HelpModButton_Click" />
+        <Label Content="Nodo Inizale" HorizontalAlignment="Left" Height="24" Margin="12,85,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Nodo Finale" HorizontalAlignment="Left" Height="24" Margin="12,109,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="NodInizioListBox" HorizontalAlignment="Left" Height="24" Margin="125,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
+        <TextBox x:Name="NodFineListBox" HorizontalAlignment="Left" Height="24" Margin="125,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
+        <Grid HorizontalAlignment="Left" Height="251" Margin="10,147,0,0" VerticalAlignment="Top" Width="267">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="128*"/>
+                <ColumnDefinition Width="139*"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="251" Stroke="Black" VerticalAlignment="Top" Width="375" Margin="0,0,-108,0" Grid.ColumnSpan="2"/>
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="28" Margin="3,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="125" StrokeThickness="0" RenderTransformOrigin="0.52,0.179"/>
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="128" Grid.Column="1"/>
+        </Grid>
+        <ListBox x:Name="AttrArchiListbox" HorizontalAlignment="Left" Height="214" Margin="137,184,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="1.682,0.482" SelectionChanged="AttrArchiListbox_SelectionChanged"/>
+        <ListBox x:Name="AttrNodiListBox" HorizontalAlignment="Left" Height="214" Margin="12,184,0,0" VerticalAlignment="Top" Width="127" SelectionChanged="AttrNodiListBox_SelectionChanged"/>
+        <Label x:Name="LabelAttrNodi" Content="Nodi" HorizontalAlignment="Left" Height="32" Margin="46,147,0,0" VerticalAlignment="Top" Width="46"/>
+        <Label x:Name="LabelAttrArchi" Content="Archi" HorizontalAlignment="Left" Height="32" Margin="178,147,0,0" VerticalAlignment="Top" Width="53"/>
+        <Label x:Name="AttributeLabel" Content="Attributo:" HorizontalAlignment="Left" Height="49" Margin="285,147,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="NomAttrLabel" Content="La" HorizontalAlignment="Left" Height="45" Margin="271,175,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AggiungiButton" Content="Aggiungi al calcolo" HorizontalAlignment="Left" Height="45" Margin="269,244,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.5,0.5" Click="AggiungiButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.503"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.491"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Grid HorizontalAlignment="Left" Height="93" Margin="285,292,0,0" VerticalAlignment="Top" Width="84">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/shark.png" Stretch="Uniform"/>
+            </Grid.Background>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="PPC.EsportaFileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Esporta File" Height="250" Width="260" ResizeMode="NoResize" Name="EsportaFileWin" Closing="EsportaFileWin_Closing" >
+    <Grid>
+        <Label Content="Esporta File" Height="48" HorizontalAlignment="Left" Margin="12,12,0,0" Name="MainEsportaLabel" VerticalAlignment="Top" Width="182" FontFamily="Calibri" FontSize="18" />
+        <Separator Height="2" HorizontalAlignment="Left" Margin="0,47,0,0" Name="separator1" VerticalAlignment="Top" Width="260" />
+        <Button Content="Help" Height="26" HorizontalAlignment="Left" Margin="184,173,0,0" Name="HelpEsportaButton" VerticalAlignment="Top" Width="42" Click="HelpEsportaButton_Click"></Button>
+        <ComboBox Height="19" HorizontalAlignment="Left" Margin="131,66,0,0" Name="MenuComboBox" VerticalAlignment="Top" Width="99" SelectionChanged="MenuComboBox_SelectionChanged" />
+        <Label Content="Selezione Albero" Height="28" HorizontalAlignment="Left" Margin="12,66,0,0" Name="SelezioneLabel" VerticalAlignment="Top" Width="104" />
+        <Button Content="Esporta" Height="28" HorizontalAlignment="Left" Margin="12,171,0,0" Name="EsportaButton" VerticalAlignment="Top" Width="141" Click="EsportaButton_Click" />
+    </Grid>
+</Window>

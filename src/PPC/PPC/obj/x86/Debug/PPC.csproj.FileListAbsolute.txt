@@ -1,0 +1,69 @@
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\bin\Debug\PPC.exe
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\bin\Debug\PPC.pdb
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\MainWindow.baml
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\MainWindow.g.cs
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\App.g.cs
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\PPC_MarkupCompile.cache
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\PPC.g.resources
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\PPC.Properties.Resources.resources
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\PPC.exe
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\PPC.pdb
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\TreeView.baml
+C:\Users\jakz\AppData\Local\Temporary Projects\PPC\obj\x86\Debug\TreeView.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC.exe
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC.pdb
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\bin\Debug\PPC.exe
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\bin\Debug\PPC.pdb
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\MainWindow.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\TreeView.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\MainWindow.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\TreeView.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\App.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC_MarkupCompile.cache
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC.g.resources
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC.Properties.Resources.resources
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\ImportaFileWindow.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\ImportaFileWindow.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\EsportaFileWindow.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\EsportaFileWindow.g.cs
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\CreaAlberoWindow.baml
+C:\Users\jakz\documents\visual studio 2010\Projects\PPC\PPC\obj\x86\Debug\CreaAlberoWindow.g.cs
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\CalcoloSuAlberoWindow.baml
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\ModificaAlberoWindow.baml
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\CalcoloSuAlberoWindow.g.cs
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\ModificaAlberoWindow.g.cs
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC.csproj.GenerateResource.Cache
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\PPC.csprojResolveAssemblyReference.cache
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\ParametersErrorWindow.baml
+C:\Users\jakz\Documents\Visual Studio 2010\Projects\PPC\PPC\obj\x86\Debug\ParametersErrorWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC.exe
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC.pdb
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\bin\Debug\PPC.exe
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\bin\Debug\PPC.pdb
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC.csprojResolveAssemblyReference.cache
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\CalcoloSuAlberoWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\CreaAlberoWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\EsportaFileWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\ImportaFileWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\MainWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\ModificaAlberoWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\ParametersErrorWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\TreeView.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\CalcoloSuAlberoWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\CreaAlberoWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\EsportaFileWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\ImportaFileWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\ModificaAlberoWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\ParametersErrorWindow.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\TreeView.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\App.g.cs
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC_MarkupCompile.cache
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC.g.resources
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC.Properties.Resources.resources
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\PPC.csproj.GenerateResource.Cache
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\HelpWindow.baml
+C:\Users\Luca\Desktop\Nuova cartella (4)\Client&Server-SemiFinal\PPC\PPC\obj\x86\Debug\HelpWindow.g.cs
