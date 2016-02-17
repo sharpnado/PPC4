@@ -169,17 +169,15 @@
 
         Strumenti di sviluppo:          Microsoft MSSQL 2014;
                                         Visual Studio 2010/2012;
-                                        
-
-        Canali di condivisione:         Github;
-                                        Slack;
-                                        Sito web del team;
-                                        
-                                    
-        Strumenti di sviluppo:          Sublime Text Editor;
+                                        Sublime Text Editor;
                                         Vim;
                                         Yed;
                                         LibreOffice;
                                         Skype;
                                         Telegram;
+                                        
+
+        Canali di condivisione:         Github;
+                                        Slack;
+                                        Sito web del team;
 
