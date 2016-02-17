@@ -163,7 +163,8 @@
         
         Sistemi operativi di sviluppo:  Windows 7 Home Edition; 
                                         Debian Linux 8 (Jessie);
-                                        Sabayon Linux; 
+                                        Sabayon Linux;
+                                        Ubuntu Linux;
                                         Mac OS X Snow Leopard.
 
         Strumenti di sviluppo:          Microsoft MSSQL 2014;
